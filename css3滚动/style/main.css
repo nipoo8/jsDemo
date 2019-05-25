@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+#outline {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#outline div {
+    width: 100%;
+    position: relative;
+}
+
+#outline div ul {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -500px;
+}
+
+#outline div ul li {
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "隶书";
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#outline div button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    cursor: pointer;
+    outline: none;
+}
+
+#outline div button:nth-of-type(1) {
+    top: 20%;
+}
+
+#outline div button:nth-of-type(2) {
+    top: 70%;
+}
+
+#oDiv1 {
+    background-color: #d3a3cd;
+}
+
+#oDiv1 li,
+#oDiv1 button {
+    background: #0d2864;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv1 li:hover,
+#oDiv1 button:hover {
+    background: #49fab8;
+    transform: rotate(360deg);
+    color: #000;
+}
+
+#oDiv2 {
+    background-color: gold;
+}
+
+#oDiv2 li,
+#oDiv2 button {
+    background: #3c475c;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv2 li:hover,
+#oDiv2 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+}
+
+#oDiv3 {
+    background-color: darkcyan;
+}
+
+#oDiv3 li,
+#oDiv3 button {
+    background: #3c475c;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv3 li:hover,
+#oDiv3 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+}
+
+#oDiv4 {
+    background-color: antiquewhite;
+}
+
+#oDiv4 li,
+#oDiv4 button {
+    background: #3c475c;
+    color: #fff;
+    transition: border-radius 1s, background 1s, color 1s, text-shadow 1s, transform 1s, font-size 1s;
+}
+
+#oDiv4 li:hover {
+    background: antiquewhite;
+    border-radius: 50%;
+    color: #000;
+    text-shadow: 10px 4px 4px tomato;
+    font-size: 100px;
+}
+
+#oDiv4 button:hover {
+    background: #91dfc2;
+    transform: scale(1.3);
+    border-radius: 50%;
+    color: #000;
+}
+
+#oDiv5 {
+    background-color: tomato;
+}
+
+#oDiv5 li,
+#oDiv5 button {
+    background: aquamarine;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv5 li:hover,
+#oDiv5 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+}
+
+#oDiv6 {
+    background-color: darkgreen;
+}
+
+#oDiv6 li,
+#oDiv6 button {
+    background: #3c475c;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv6 li:hover,
+#oDiv6 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+}
+
+#oDiv7 {
+    background-color: darkcyan;
+}
+
+#oDiv7 li,
+#oDiv7 button {
+    background: rgb(44, 44, 117);
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s, border-radius 1s;
+}
+
+#oDiv7 li:hover,
+#oDiv7 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+    border-radius: 50%;
+}
+
+#oDiv8 {
+    background-color: darkcyan;
+}
+
+#oDiv8 li,
+#oDiv8 button {
+    background: #3c475c;
+    color: #fff;
+    transition: transform 1s, background 1s, color 1s;
+}
+
+#oDiv8 li:hover,
+#oDiv8 button:hover {
+    background: #91dfc2;
+    transform: scale(1.2);
+    color: #000;
+}

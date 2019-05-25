@@ -1,0 +1,48 @@
+/* 顶部广告部分 */
+
+.top_con {
+    width: 965px;
+}
+
+
+/* 头部导航栏 */
+
+#header {
+    width: 965px;
+}
+
+
+/* 介绍部分 */
+
+#cla_in {
+    width: 965px;
+}
+
+.ci_ul li {
+    width: 280px;
+    margin-left: 62px;
+}
+
+.ci_ul li div {
+    width: 180px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+
+/* 底部 */
+
+.footer_cin {
+    width: 965px;
+}
+
+
+/* 主要内容区 */
+
+#content {
+    width: 965px;
+}
+
+.main {
+    width: 740px;
+}
